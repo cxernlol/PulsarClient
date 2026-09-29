@@ -5,6 +5,8 @@
 - Here is the solution to that problem: **Pulsar Client**.
 Pulsar is a hyper-lightweight, 100% open-source Minecraft optimization client and launcher built with **Rust**, **Tauri v2**, and **Fabric**. Zero corporate fluff, zero trackers, and maximum raw FPS.
 
+## Read our prototype [Architecture](ARCHITECTURE.md)
+
 ---
 
 ## 🛑 Why Switch?
