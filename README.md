@@ -1,31 +1,37 @@
 # ✦ Pulsar Client
+## No we're not that peripheral brand.
 
-**Pulsar Client** is an open-source, hyper-lightweight Minecraft optimization client and launcher built around a strict "No-BS" philosophy: maximizing raw FPS, eliminating micro-stutters, and delivering an ultra-clean interface with zero corporate adware, zero trackers, and zero background bloat.
+- Tired of bloatware clients? Sick of Lunar and Badlion pushing money-trap cosmetics, daily shop banners, and hogging 1GB+ of RAM just idling? 
+- Here is the solution to that problem: **Pulsar Client**.
+Pulsar is a hyper-lightweight, 100% open-source Minecraft optimization client and launcher built with **Rust**, **Tauri v2**, and **Fabric**. Zero corporate fluff, zero trackers, and maximum raw FPS.
 
 ---
 
-## ⚡ What is Pulsar Client?
+## 🛑 Why Switch?
 
-Pulsar Client is a modern, performance-focused alternative to traditional Minecraft launchers:
+| The Industry Standard | Pulsar Client |
+| :--- | :--- |
+| ❌ 500MB – 1.2GB idle RAM usage | ✅ **< 30MB idle RAM footprint** |
+| ❌ Annoying shop banners & paid cosmetics | ✅ **Zero ads, zero monetization, zero bloat** |
+| ❌ Slow 5+ second launcher boot times | ✅ **Sub-second instant startup (<0.4s)** |
+| ❌ Closed-source with background telemetry | ✅ **100% Open Source (0% trackers)** |
 
-* **🚀 Sub-Second Startup:** Native Rust + Tauri v2 backend ensures sub-second boot times and an idle footprint under **30MB RAM**.
-* **🎮 Pre-Tuned Performance Stack:** Automatically injects Fabric Loader along with essential optimization mods (*Sodium*, *NVIDIUM*, *Iris*, *Lithium*, *FerriteCore*, and *ModernFix*).
-* **🔒 Secure Local Auth:** Microsoft OAuth 2.0 PKCE authentication runs via a local `127.0.0.1` loopback server—tokens never leave your machine.
-* **🛡️ 0% Telemetry:** 100% open source with zero telemetry, zero trackers, and no daily ad carousels.
+---
+
+## ⚡ What You Get Out of the Box
+
+* **🚀 Pre-Tuned Performance Stack:** Ships pre-packaged with essential optimization mods: **Sodium**, **Lithium**, **FerriteCore**, **ModernFix**, **Iris**, and **NVIDIUM** (Mesh Shaders).
+* **🔒 Pure Local Auth:** Authenticates directly with Microsoft via a local `127.0.0.1` Rust loopback server. Your tokens never leave your PC.
+* **🎯 Focused OLED Interface:** Sleek, dark UI featuring a prominent centered **PLAY** CTA and rapid profile switcher.
 
 ---
 
 ## 🛠️ Stack Architecture
 
-* **Frontend:** Vite • React • TypeScript • Tailwind CSS • Shadcn UI
-* **Backend Core:** Rust • Tauri v2 • Tokio
-* **Game Engine:** Java JVM + Fabric Loader
+* **UI Layer:** Vite • React • TypeScript • Tailwind CSS • Shadcn UI
+* **Core Engine:** Rust • Tauri v2 • Tokio Async Runtime
+* **Game Runtime:** Java JVM + Fabric Loader
 
 ---
 
-## 💻 Local Setup
-
-### Prerequisites
-* **Node.js** (v18+) & **pnpm**
-* **Rust Toolchain** (`rustup default stable`)
-* **Java JDK** 17 or 21
+# Stay Tuned.
