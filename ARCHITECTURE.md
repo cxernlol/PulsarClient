@@ -45,7 +45,7 @@ Core Optimization Stack:
 Optimization Stack: 
 - Rendering: Sodium, NVIDIUM (NVIDIA Mesh Shaders), Iris (Shaders).
 - Memory & Logic: FerriteCore, Lithium, ModernFix.3.
-- Launcher Directory ArchitecturePlaintextpulsar-client-launcher/
+- Launcher Directory Architecture pulsar-client-launcher/
   
 ```text
 ├── src-tauri/                   # Rust Backend Engine
