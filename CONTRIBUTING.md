@@ -32,19 +32,18 @@ Have an idea that improves client speed or quality of life?
    ```bash
    git clone [https://github.com/YOUR_USERNAME/PulsarClient.git](https://github.com/YOUR_USERNAME/PulsarClient.git)
    cd PulsarClient
-  ```
-### 4. Create a Feature Branch:
+   ```
+2. **Create a Future Branch:**
+   ```Bash
+   git checkout -b feat/your-feature-name
+   # or fix/your-bug-fix
+   ```
 
-```Bash
-git checkout -b feat/your-feature-name
-# or fix/your-bug-fix
-```
-
-2. **Install & Run Locally:**
-```Bash
-pnpm install
-pnpm tauri dev
-```
+3. **Install & Run Locally:**
+   ```Bash
+   pnpm install
+   pnpm tauri dev
+   ```
 
 Commit Guidelines:
 We follow Conventional Commits:
