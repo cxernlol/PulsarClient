@@ -40,8 +40,13 @@ Core Optimization Stack:
 
 ## 3. Launcher Directory Architecture
 - Launcher Frontend: Vite + React (TypeScript) + Tailwind CSS + Shadcn UI + Lucide Icons + Framer Motion.Launcher
-- Backend: Rust + Tauri v2 (Handles Microsoft OAuth 2.0 PKCE, parallel async asset downloads via Tokio, and JVM process spawning).Game Engine: Fabric Loader automatically injected at launch.Core Optimization
-- Stack:Rendering: Sodium, NVIDIUM (NVIDIA Mesh Shaders), Iris (Shaders).Memory & Logic: FerriteCore, Lithium, ModernFix.3. Launcher Directory ArchitecturePlaintextpulsar-client-launcher/
+- Backend: Rust + Tauri v2 (Handles Microsoft OAuth 2.0 PKCE, parallel async asset downloads via Tokio, and JVM process spawning).Game Engine: Fabric Loader automatically injected at launch.Core
+  
+Optimization Stack: 
+- Rendering: Sodium, NVIDIUM (NVIDIA Mesh Shaders), Iris (Shaders).
+- Memory & Logic: FerriteCore, Lithium, ModernFix.3.
+- Launcher Directory ArchitecturePlaintextpulsar-client-launcher/
+  
 ```text
 ├── src-tauri/                   # Rust Backend Engine
 │   ├── Cargo.toml
@@ -73,8 +78,9 @@ Core Optimization Stack:
 ## 4. UI / UX Design & Layout Blueprint
    A. Window Form Factor & Morphing Splash
    - Frameless Splash Startup: Double-clicking pulsar.exe instantly displays a $340 \times 180\text{ px}$ frameless splash loader in under 100ms to mask local token verification and file checks.
-   - Smooth Resize: Once verified, the window smoothly expands to the main dashboard ($840 \times 520\text{ px}$) without window flickers.Minimalist Aesthetics: OLED Black (#000000) and Industrial Zinc (#09090b) dark
-     modes designed to match modern PC desk setups.B. Centered Primary CTA & Version SwitcherThe main dashboard features a central focal point that minimizes user cursor movement:
+   - Smooth Resize: Once verified, the window smoothly expands to the main dashboard ($840 \times 520\text{ px}$) without window flickers.
+   - Minimalist Aesthetics: OLED Black (#000000) and Industrial Zinc (#09090b) dark modes designed to match modern PC desk setups.B. Centered Primary CTA & Version Switcher
+   - The main dashboard features a central focal point that minimizes user cursor movement:
      
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
