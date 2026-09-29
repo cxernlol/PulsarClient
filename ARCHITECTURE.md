@@ -67,7 +67,7 @@ Core Optimization Stack:
 ```
 ---
 
-4. UI / UX Design & Layout Blueprint
+## 4. UI / UX Design & Layout Blueprint
    A. Window Form Factor & Morphing Splash
    - Frameless Splash Startup: Double-clicking pulsar.exe instantly displays a $340 \times 180\text{ px}$ frameless splash loader in under 100ms to mask local token verification and file checks.
    - Smooth Resize: Once verified, the window smoothly expands to the main dashboard ($840 \times 520\text{ px}$) without window flickers.Minimalist Aesthetics: OLED Black (#000000) and Industrial Zinc (#09090b) dark
