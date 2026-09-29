@@ -45,9 +45,9 @@ Have an idea that improves client speed or quality of life?
    pnpm tauri dev
    ```
 
-Commit Guidelines:
-We follow Conventional Commits:
+## Commit Guidelines
 
+We follow Conventional Commits:
 - feat: add new JVM memory preset selector
 - fix: prevent loopback OAuth server hang on auth cancel
 - perf: reduce frontend bundle size
