@@ -62,4 +62,5 @@ Push your branch and open a PR targeting main. Be sure to describe your changes 
 - Engine Injection: Fabric Loader + Core Optimization Mods (Sodium, Lithium, Iris, etc.).
 
 For full technical details, consult the [Architecture Guide.](ARCHITECTURE.md)
+
 Thank you for helping keep Minecraft clients fast, free, and open! 🚀
