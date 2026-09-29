@@ -3,6 +3,7 @@
 
 - Tired of bloatware clients? Sick of Lunar and Badlion pushing money-trap cosmetics, daily shop banners, and hogging 1GB+ of RAM just idling? 
 - Here is the solution to that problem: **Pulsar Client**.
+
 Pulsar is a hyper-lightweight, 100% open-source Minecraft optimization client and launcher built with **Rust**, **Tauri v2**, and **Fabric**. Zero corporate fluff, zero trackers, and maximum raw FPS.
 
 ## Read our [Architecture Guide](ARCHITECTURE.md)
