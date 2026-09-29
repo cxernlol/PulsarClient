@@ -30,7 +30,7 @@ Have an idea that improves client speed or quality of life?
 
 1. **Fork & Clone:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/PulsarClient.git](https://github.com/YOUR_USERNAME/PulsarClient.git)
+   git clone https://github.com/cxernlol/PulsarClient.git
    cd PulsarClient
    ```
 2. **Create a Future Branch:**
