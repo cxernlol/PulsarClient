@@ -41,4 +41,4 @@ If you use an AI Agent please read [Agent Guides](AGENTS.md) or [Claude Guides](
 # Stay Tuned.
 Cos i'm lazy, most of this .md is created by AI. The code base is already done just cos i'm lazy i'll upload it later.
 
-[Pulsar Client](assets/image.png)
+[Pulsar Client](assets/✦.png)
