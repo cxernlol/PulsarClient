@@ -131,5 +131,6 @@ pulsar-client-launcher/
 
 ## 8. Security & Code Signing Policy
 - No Certificate Tax: Rejecting $200–$300/year Microsoft Code Signing certificate fees to remain 100% community-funded and open.
-- Radical Transparency:Automated public release builds produced by GitHub Actions CI/CD.Public SHA-256 Checksums published for every release binary.
+- Radical Transparency:Automated public release builds produced by GitHub Actions CI/CD.
+- Public SHA-256 Checksums published for every release binary.
 - Visual 2-step setup instructions ("More Info" $\rightarrow$ "Run Anyway") on the download page.
